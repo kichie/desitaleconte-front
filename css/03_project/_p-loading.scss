@@ -1,0 +1,19 @@
+.p-loading {
+  padding-top: 278px;
+  padding-bottom: 40px;
+
+  &_img {
+    width: 320px;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &_text{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+  }
+}

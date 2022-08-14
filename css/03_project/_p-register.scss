@@ -1,0 +1,43 @@
+.p-register {
+  padding-top: 105px;
+
+  &_container {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  &_form {
+    &_text {
+      & + .p-register_form_text{
+        margin-top: 32px;
+      }
+      &_title {
+        font-size: 32px;
+        line-height: 1;
+      }
+
+      .input_text {
+        border: 1px #707070 solid;
+        border-radius: 10px;
+        height: 65px;
+        font-size: 32px;
+        padding: 10px;
+        display: block;
+        width: 100%;
+        margin-top: 11px;
+      }
+    }
+
+    &_submit{
+      display: block;
+      width: 377px;
+      line-height: 68px;
+      background-color: #fff;
+      border: 1px #707070 solid;
+      margin-left: auto;
+      font-size: 32px;
+      border-radius: 23px;
+      margin-top: 101px;
+    }
+  }
+}

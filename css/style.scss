@@ -1,0 +1,35 @@
+// ---------------------------------
+//   import 00_foundation styles
+// ---------------------------------
+
+@import "./00_foundation/f-base"; // サイト全域に影響するスタイル
+@import "./00_foundation/f-display"; // displayの設定
+@import "./00_foundation/f-function"; // 変数・フォント・ブレイクポイント等の定義
+
+// ---------------------------------
+//   import 01_layout styles
+// ---------------------------------
+
+@import "./01_layout/l-header";
+
+
+// ---------------------------------
+//   import 02_component styles
+// ---------------------------------
+
+@import "./02_object/c-message";
+
+// ---------------------------------
+//   import 03_project styles
+// ---------------------------------
+
+@import "./03_project/p-register";
+@import "./03_project/p-login";
+@import "./03_project/p-quotation";
+@import "./03_project/p-theme";
+@import "./03_project/p-loading";
+@import "./03_project/p-prepare";
+@import "./03_project/p-edit";
+@import "./03_project/p-upload";
+@import "./03_project/p-price";
+@import "./03_project/p-schedule";

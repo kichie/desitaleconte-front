@@ -1,0 +1,48 @@
+.p-theme {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  &_container {
+    max-width: 1262px;
+    margin: 0 auto;
+  }
+
+  &_lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    &_item {
+      width: 25%;
+
+      &:nth-child(4n + 1) {
+        margin-left: 0;
+      }
+
+      &:nth-child(n + 5) {
+        margin-top: 56px;
+      }
+
+      &_link {
+        width: 180px;
+        display: block;
+        margin: 0 auto;
+
+        &_name {
+          text-align: center;
+          font-size: 20px;
+          color: #707070;
+        }
+
+        &_img {
+          margin-top: 7px;
+
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

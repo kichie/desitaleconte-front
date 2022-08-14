@@ -1,0 +1,19 @@
+.pc {
+    @include mq-min(ta) {
+        display: block;
+    }
+
+    @include mq-max(ta) {
+        display: none;
+    }
+}
+
+.sp {
+    @include mq-min(sp) {
+        display: none;
+    }
+
+    @include mq-max(sp) {
+        display: block;
+    }
+}
