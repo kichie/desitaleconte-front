@@ -1,81 +1,81 @@
 .p-upload {
-  padding-top: 88px;
-  padding-bottom: 40px;
+  padding-top: 4.5833333333333vw;
+  padding-bottom: 2.0833333333333vw;
 
   &_container {
-    max-width: 1680px;
-    padding: 0 40px;
+    max-width: 87.5vw;
+    padding: 0 2.0833333333333vw;
     margin: 0 auto;
   }
 
   &_title {
-    font-size: 37px;
+    font-size: 1.9270833333333vw;
   }
 
   &_form {
     background-color: #E7E7E7;
-    border-radius: 8px;
-    max-width: 1008px;
-    margin: 64px auto 0;
-    padding: 51px 57px 28px 40px;
+    border-radius: 0.4166666666667vw;
+    max-width: 52.5vw;
+    margin: 3.3333333333333vw auto 0;
+    padding: 2.65625vw 2.96875vw 1.4583333333333vw 2.0833333333333vw;
 
     &_item {
       display: flex;
       align-items: center;
 
       & + & {
-        margin-top: 19px;
+        margin-top: 0.9895833333333vw;
       }
 
       &_name {
-        width: 160px;
-        margin-right: 30px;
-        font-size: 20px;
+        width: 8.3333333333333vw;
+        margin-right: 1.5625vw;
+        font-size: 1.0416666666667vw;
         text-align: center;
       }
 
       &_input {
-        width: calc(100% - 190px);
-        height: 61px;
+        width: calc(100% - 9.8958333333333vw);
+        height: 3.1770833333333vw;
 
         &_file {
           background-color: #fff;
           width: 100%;
-          border-radius: 8px;
+          border-radius: 0.4166666666667vw;
           border: 1px #707070 solid;
           height: 100%;
-          padding: 11px 0 11px 38px;
+          padding: 0.5729166666667vw 0 0.4729166666667vw 1.9791666666667vw;
           display: flex;
           align-items: center;
 
           &_upload {
             height: 100%;
-            font-size: 20px;
+            font-size: 1.0416666666667vw;
           }
         }
 
         &_text {
           background-color: #fff;
           width: 100%;
-          border-radius: 8px;
+          border-radius: 0.4166666666667vw;
           border: 1px #707070 solid;
           height: 100%;
-          padding: 11px 0 11px 38px;
-          font-size: 20px;
+          padding: 0.5729166666667vw 0 0.5729166666667vw 1.9791666666667vw;
+          font-size: 1.0416666666667vw;
         }
       }
     }
 
     &_radio {
-      max-width: 648px;
+      max-width: 33.75vw;
       width: 100%;
-      margin: 30px auto 0;
+      margin: 1.5625vw auto 0;
       display: flex;
       align-items: center;
       justify-content: space-between;
 
       &_item {
-        width: 134px;
+        width: 6.9791666666667vw;
 
         &_input {
           height: 0;
@@ -93,33 +93,33 @@
         &_label {
           display: block;
           width: 100%;
-          line-height: 61px;
+          line-height: 3.1770833333333vw;
           background-color: #fff;
-          border-radius: 8px;
+          border-radius: 0.4166666666667vw;
           border: 1px #707070 solid;
           text-align: center;
-          font-size: 20px;
+          font-size: 1.0416666666667vw;
         }
       }
     }
 
     &_submit {
       display: block;
-      width: 490px;
-      line-height: 61px;
+      width: 25.5208333333333vw;
+      line-height: 3.1770833333333vw;
       background-color: #249AFF;
       color: #fff;
-      font-size: 20px;
-      border-radius: 8px;
+      font-size: 1.0416666666667vw;
+      border-radius: 0.4166666666667vw;
       border: 1px #707070 solid;
-      margin: 20px auto 0;
+      margin: 1.0416666666667vw auto 0;
     }
   }
 
   &_sample{
-    padding: 24px 27px;
-    margin-top: 21px;
-    height: 635px;
+    padding: 1.25vw 1.40625vw;
+    margin-top: 1.09375vw;
+    height: 33.0729166666667vw;
     overflow-y: scroll;
     border: 1px #707070 solid;
 
@@ -128,15 +128,15 @@
       flex-wrap: wrap;
 
       &_item{
-        width: calc(25% - 25px);
-        margin-left: 33px;
+        width: calc(25% - 1.3020833333333vw);
+        margin-left: 1.71875vw;
 
         &:nth-child(4n + 1){
           margin-left: 0;
         }
 
         &:nth-child(n + 5){
-          margin-top: 20px;
+          margin-top: 1.0416666666667vw;
         }
 
         &_img{
@@ -150,19 +150,19 @@
 
         &_flex{
           position: relative;
-          margin-top: 20px;
+          margin-top: 1.0416666666667vw;
 
           &_name{
-            font-size: 16px;
+            font-size: 0.8333333333333vw;
             text-align: center;
             color: #707070;
           }
 
           &_cancel{
             position: absolute;
-            width: 17px;
-            height: 17px;
-            bottom: 3px;
+            width: 0.8854166666667vw;
+            height: 0.8854166666667vw;
+            bottom: 0.15625vw;
             right: 0;
             cursor: pointer;
 
@@ -183,22 +183,22 @@
   position: absolute;
   top: 50%;
   transform: translate(-50%,-50%);
-  min-width: 775px;
-  padding: 74px 13px 34px 55px;
+  min-width: 40.3645833333333vw;
+  padding: 3.8541666666667vw 0.6770833333333vw 1.7708333333333vw 2.8645833333333vw;
   border: 1px #707070 solid;
   &_text{
-    font-size: 20px;
-    line-height: 1.2rem;
+    font-size: 1.0416666666667vw;
+    line-height: 1.2;
   }
   &_ok{
-    width: 115px;
+    width: 5.9895833333333vw;
     display: block;
-    margin: 58px 0 0 auto;
-    line-height: 46px;
-    border-radius: 8px;
+    margin: 3.0208333333333vw 0 0 auto;
+    line-height: 2.3958333333333vw;
+    border-radius: 0.4166666666667vw;
     background-color: #249AFF;
     text-align: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 1.0416666666667vw;
   }
 }

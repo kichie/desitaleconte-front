@@ -1,9 +1,9 @@
 .p-theme {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 2.0833333333333vw;
+  padding-bottom: 2.0833333333333vw;
 
   &_container {
-    max-width: 1262px;
+    max-width: 65.7291666666667vw;
     margin: 0 auto;
   }
 
@@ -11,7 +11,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 3.125vw;
 
     &_item {
       width: 25%;
@@ -21,22 +21,22 @@
       }
 
       &:nth-child(n + 5) {
-        margin-top: 56px;
+        margin-top: 2.9166666666667vw;
       }
 
       &_link {
-        width: 180px;
+        width: 9.375vw;
         display: block;
         margin: 0 auto;
 
         &_name {
           text-align: center;
-          font-size: 20px;
+          font-size: 1.0416666666667vw;
           color: #707070;
         }
 
         &_img {
-          margin-top: 7px;
+          margin-top: 0.3645833333333vw;
 
           img{
             width: 100%;

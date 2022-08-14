@@ -27,7 +27,7 @@ body {
       }
 
       &_edit {
-        max-width: 1090px;
+        max-width: 56.7708333333333vw;
         padding: 0 2.083333vw;
         margin: 3.5416666666667vw auto 0;
         @media screen and (max-width: 1500px) {
@@ -57,11 +57,11 @@ body {
           border-bottom: 1px #707070 solid;
           position: relative;
           height: 3.8541666666667vw;
-          margin-top: 2.5520833333333vw;
+          margin-top: 1.052083vw;
           display: flex;
           z-index: 0;
           @media screen and (max-width: 1500px) {
-            margin-top: 1.5520833333333vw;
+            margin-top: 1.152083vw;
           }
 
           &:after {
@@ -70,7 +70,7 @@ body {
             content: "";
             height: 1px;
             background-color: #707070;
-            top: 12px;
+            top: 0.625vw;
             left: 0;
             z-index: -1;
           }
@@ -79,7 +79,7 @@ body {
             position: relative;
             height: 100%;
 
-            &_immodal {
+            &_image {
               height: 100%;
               width: auto;
 
@@ -129,6 +129,10 @@ body {
         .p-edit_main_sample_lists {
           margin-top: 1.0416666666667vw;
         }
+
+        .p-edit_main_sample_lists_item_link_img{
+          height: 5.3645833333333vw;
+        }
       }
 
       &_title {
@@ -173,12 +177,12 @@ body {
           z-index: 1;
 
           &.prev-arrow {
-            background-immodal: url("../img/slide_arrow_prev.png");
+            background-image: url("../img/slide_arrow_prev.png");
             left: 0;
           }
 
           &.next-arrow {
-            background-immodal: url("../img/slide_arrow_next.png");
+            background-image: url("../img/slide_arrow_next.png");
             right: 0;
           }
         }
@@ -209,7 +213,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-immodal: url("../img/side_add_border.png");
+        background-image: url("../img/side_add_border.png");
         position: absolute;
         bottom: 0;
         left: 2.8125vw;
@@ -424,7 +428,7 @@ body {
               width: 30%;
               height: 100%;
               background-color: rgba(133,130,76,.62);
-              border-right: 9px #FFF238 solid;
+              border-right: 0.46875vw #FFF238 solid;
               pointer-events: none;
             }
 
@@ -436,7 +440,7 @@ body {
               width: 50%;
               height: 100%;
               background-color: rgba(133,130,76,.62);
-              border-left: 9px #FFF238 solid;
+              border-left: 0.46875vw #FFF238 solid;
             }
 
             &_image {
@@ -579,7 +583,7 @@ body {
 
             &_text{
               width: 45%;
-              padding-right: 70px;
+              padding-right: 3.6458333333333vw;
 
               &_p{
                 font-size: 1.0416666666667vw;
