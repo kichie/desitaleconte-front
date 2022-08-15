@@ -114,6 +114,10 @@
         border-collapse: separate;
         width: 100%;
 
+        tr:nth-child(2n) td {
+          background-color: #F1F1F1;
+        }
+
         th {
           border: 1px #707070 solid;
           height: 2.8645833333333vw;
@@ -145,6 +149,7 @@
             font-size: 0.8333333333333vw;
 
             &.table_btn {
+              background-color: #fff;
               width: 6.875vw;
               line-height: 1.6666666666667vw;
               border: 1px solid #707070;
