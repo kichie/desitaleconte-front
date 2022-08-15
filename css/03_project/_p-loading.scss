@@ -1,9 +1,12 @@
 .p-loading {
-  padding-top: 14.4791666666667vw;
-  padding-bottom: 2.0833333333333vw;
+  height: calc(100vh - 5.5208333333333vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   &_img {
-    width: 31.0416666666667vw;
+    width: 21.041667vw;
     margin: 0 auto;
 
     img {
