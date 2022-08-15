@@ -110,8 +110,8 @@
       margin-top: 0.6770833333333vw;
 
       table {
-        border-spacing: 1px;
-        border-collapse: separate;
+        border-top: 1px #707070 solid;
+        border-left: 1px #707070 solid;
         width: 100%;
 
         tr:nth-child(2n) td {
@@ -119,7 +119,8 @@
         }
 
         th {
-          border: 1px #707070 solid;
+          border-bottom: 1px #707070 solid;
+          border-right: 1px #707070 solid;
           height: 2.8645833333333vw;
           font-size: 0.8333333333333vw;
           text-align: center;
@@ -138,7 +139,8 @@
         }
 
         td {
-          border: 1px #707070 solid;
+          border-bottom: 1px #707070 solid;
+          border-right: 1px #707070 solid;
           height: 5.15625vw;
           font-size: 0.8333333333333vw;
           text-align: center;
