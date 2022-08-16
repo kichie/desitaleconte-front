@@ -99,6 +99,7 @@
           border: 1px #707070 solid;
           text-align: center;
           font-size: 1.0416666666667vw;
+          cursor: pointer;
         }
       }
     }
@@ -191,6 +192,7 @@
     line-height: 1.2;
   }
   &_ok{
+    cursor: pointer;
     width: 5.9895833333333vw;
     display: block;
     margin: 3.0208333333333vw 0 0 auto;

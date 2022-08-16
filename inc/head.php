@@ -30,33 +30,23 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/css/style.min.css">
 
+  <?php
+    $url = $_SERVER['REQUEST_URI'];
+    if(strstr($url,'edit')==true):
+  ?>
   <!-- js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="/js/main.js"></script>
+  <script src="/js/edit.js"></script>
 
   <!-- slick -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 
-  <!-- swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <?php elseif(strstr($url,'upload')==true): ?>
+  <!-- js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/js/upload.js"></script>
+  <?php endif; ?>
 
 </head>
-
-<body>
-  <header class="l-header">
-    <h1 class="l-header_title">爆速納品</h1>
-    <p class="l-header_info"><span class="name">アジズ</span>さん、こんにちは</p>
-  </header>
-
-  <main class="p-prepare">
-    <div class="p-prepare_container">
-      <div class="p-prepare_movie">
-        <img src="./img/prepare_img.png" alt="" class="p-prepare_movie_main">
-      </div>
-    </div>
-  </main>
-</body>
-
-</html>

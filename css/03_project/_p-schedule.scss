@@ -66,8 +66,17 @@
       }
 
       &_item {
+        display: flex;
+        align-items: center;
+
+        input {
+          cursor: pointer;
+        }
+
         &_label {
           font-size: 0.8333333333333vw;
+          margin-left: 3px;
+          cursor: pointer;
         }
       }
     }

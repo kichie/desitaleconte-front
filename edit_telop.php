@@ -1,45 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja" dir="ltr">
-
-<head>
-  <title>NowNever</title>
-  <!-- Information -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- favicons -->
-  <!-- <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff"> -->
-
-  <!-- font -->
-  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    @font-face {
-      font-family: "KosugiMaru-Regular";
-      src: url("/fonts/KosugiMaru-Regular.ttf") format('opentype');
-      font-weight: normal;
-    }
-  </style>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/style.min.css">
-
-  <!-- js -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="./js/edit.js"></script>
-
-  <!-- slick -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-
-</head>
+<?php include('./inc/head.php'); ?>
 
 <body>
   <main class="p-edit">
@@ -73,50 +32,50 @@
             </div>
           </div>
           <div class="p-edit_main_movie_addsample">
-            <span class="p-edit_main_movie_addsample_btn">サンプル動画追加</span>
+            <a href="#" class="p-edit_main_movie_addsample_btn">サンプル動画追加</a>
           </div>
         </div>
 
-        <div class="p-edit_main_sample">
+        <div class="p-edit_main_sample category">
           <ul class="p-edit_main_sample_lists">
             <li class="p-edit_main_sample_lists_item">
               <a href="#" class="p-edit_main_sample_lists_item_link">
                 <div class="p-edit_main_sample_lists_item_link_img">
-                  <img src="./img/movie_sample_img.png" alt="">
+                  <img src="./img/telop_sample_img.png" alt="">
                 </div>
-                <p class="p-edit_main_sample_lists_item_link_name">サンプル１</p>
+                <p class="p-edit_main_sample_lists_item_link_name">テロップ１</p>
               </a>
             </li>
             <li class="p-edit_main_sample_lists_item">
               <a href="#" class="p-edit_main_sample_lists_item_link">
                 <div class="p-edit_main_sample_lists_item_link_img">
-                  <img src="./img/movie_sample_img.png" alt="">
+                  <img src="./img/telop_sample_img.png" alt="">
                 </div>
-                <p class="p-edit_main_sample_lists_item_link_name">サンプル2</p>
+                <p class="p-edit_main_sample_lists_item_link_name">テロップ2</p>
               </a>
             </li>
             <li class="p-edit_main_sample_lists_item">
               <a href="#" class="p-edit_main_sample_lists_item_link">
                 <div class="p-edit_main_sample_lists_item_link_img">
-                  <img src="./img/movie_sample_img.png" alt="">
+                  <img src="./img/telop_sample_img.png" alt="">
                 </div>
-                <p class="p-edit_main_sample_lists_item_link_name">サンプル3</p>
+                <p class="p-edit_main_sample_lists_item_link_name">テロップ3</p>
               </a>
             </li>
             <li class="p-edit_main_sample_lists_item">
               <a href="#" class="p-edit_main_sample_lists_item_link">
                 <div class="p-edit_main_sample_lists_item_link_img">
-                  <img src="./img/movie_sample_img.png" alt="">
+                  <img src="./img/telop_sample_img.png" alt="">
                 </div>
-                <p class="p-edit_main_sample_lists_item_link_name">サンプル4</p>
+                <p class="p-edit_main_sample_lists_item_link_name">テロップ4</p>
               </a>
             </li>
             <li class="p-edit_main_sample_lists_item">
               <a href="#" class="p-edit_main_sample_lists_item_link">
                 <div class="p-edit_main_sample_lists_item_link_img">
-                  <img src="./img/movie_sample_img.png" alt="">
+                  <img src="./img/telop_sample_img.png" alt="">
                 </div>
-                <p class="p-edit_main_sample_lists_item_link_name">サンプル5</p>
+                <p class="p-edit_main_sample_lists_item_link_name">テロップ5</p>
               </a>
             </li>
           </ul>
@@ -183,7 +142,6 @@
       </div>
     </div>
   </main>
-
   <div class="modal_confirm">
     <div class="modal_confirmbox">
       <div class="modal_confirm_back"></div>
@@ -287,6 +245,7 @@
       </div>
     </div>
   </div>
+
 </body>
 
 </html>

@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja" dir="ltr">
-
-<head>
-    <title>NowNever</title>
-    <!-- Information -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- favicons -->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff"> -->
-
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        @font-face {
-            font-family: "KosugiMaru-Regular";
-            src: url("/fonts/KosugiMaru-Regular.ttf") format('opentype');
-            font-weight: normal;
-        }
-    </style>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.min.css">
-
-    <!-- js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/js/upload.js"></script>
-
-</head>
+<?php include('./inc/head.php'); ?>
 
 <body>
   <main class="p-upload">
