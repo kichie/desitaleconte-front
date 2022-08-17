@@ -49,24 +49,30 @@
                 <td><a href="#">○○様お見積り</a></td>
                 <td>2021/09/08</td>
                 <td>
-                  <a href="#" class="table_btn">複製</a>
-                  <a href="#" class="table_btn">編集</a>
+                  <form action="#" method="POST">
+                      <input type="hidden" value="" name="s3_path">
+                      <input type="submit" value="複製" class="table_btn">
+                  </form>
                 </td>
               </tr>
               <tr>
                 <td><a href="#">○○様お見積り</a></td>
                 <td>2021/09/08</td>
                 <td>
-                  <a href="#" class="table_btn">複製</a>
-                  <a href="#" class="table_btn">編集</a>
+                  <form action="#" method="POST">
+                      <input type="hidden" value="" name="s3_path">
+                      <input type="submit" value="複製" class="table_btn">
+                  </form>
                 </td>
               </tr>
               <tr>
                 <td><a href="#">○○様お見積り</a></td>
                 <td>2021/09/08</td>
                 <td>
-                  <a href="#" class="table_btn">複製</a>
-                  <a href="#" class="table_btn">編集</a>
+                  <form action="#" method="POST">
+                      <input type="hidden" value="" name="s3_path">
+                      <input type="submit" value="複製" class="table_btn">
+                  </form>
                 </td>
               </tr>
             </tbody>

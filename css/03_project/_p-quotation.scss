@@ -145,27 +145,23 @@
           font-size: 0.8333333333333vw;
           text-align: center;
 
+          .table_btn {
+            background-color: #fff;
+            width: 6.875vw;
+            line-height: 1.6666666666667vw;
+            border: 1px solid #707070;
+            text-align: center;
+            font-size: 0.8333333333333vw;
+            border-radius: 0.4166666666667vw;
+            color: inherit;
+            text-decoration: none;
+            margin: 0 auto;
+          }
+
           a {
             color: #3B86FF;
             text-decoration: underline;
             font-size: 0.8333333333333vw;
-
-            &.table_btn {
-              background-color: #fff;
-              width: 6.875vw;
-              line-height: 1.6666666666667vw;
-              border: 1px solid #707070;
-              text-align: center;
-              font-size: 0.8333333333333vw;
-              border-radius: 0.4166666666667vw;
-              color: inherit;
-              text-decoration: none;
-              margin: 0 auto;
-
-              & + .table_btn {
-                margin-top: 0.5208333333333vw;
-              }
-            }
           }
         }
       }
