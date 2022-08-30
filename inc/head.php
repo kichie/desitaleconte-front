@@ -30,12 +30,13 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/css/style.min.css">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/js/common.js"></script>
   <?php
     $url = $_SERVER['REQUEST_URI'];
     if(strstr($url,'edit')==true):
   ?>
   <!-- js -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="/js/edit.js"></script>
 
   <!-- slick -->
