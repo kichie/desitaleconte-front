@@ -15,6 +15,10 @@
           <p class="p-login_form_text_title">パスワード</p>
           <input type="text" name="password" value="" class="input_text">
         </div>
+        <label class="p-login_form_save">
+          <input type="checkbox" name="パスワードを保存する" value="パスワードを保存する" class="p-login_form_save_check">
+          <span class="p-login_form_save_text">パスワードを保存する</span>
+        </label>
         <input type="submit" name="" value="ログイン" class="p-login_form_login">
       </form>
     </div>
